@@ -1,0 +1,29 @@
+{
+  "name": "joao-stock",
+  "version": "1.0.0",
+  "description": "joao stock app",
+  "main": "index.js",
+  "repository": "https://github.wdf.sap.corp/i343878/joao-stock.git",
+  "scripts": {
+    "debug": "cross-env DEBUG=joao-stock:* nodemon",
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "test": "mocha './test/unit/controllers/stockController.js' --recursive --timeout 5000 --exit"
+  },
+  "author": "Joao Costa <joao.costa01@sap.com><joaofrca@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.9.28",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.1.1"
+  }
+}
