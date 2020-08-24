@@ -9,7 +9,7 @@ This repository provides all dependencies in order to run the node's first proje
 On the folder's directory run:
 
 ```
-git clone https://github.wdf.sap.corp/i343878/joao-stock.git
+git clone https://github.com/joaofrca/joao-node-stock.git
 ```
 
 #### 1. Install the project dependencies
